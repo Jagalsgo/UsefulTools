@@ -1,0 +1,21 @@
+/* common */
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.vertical-align-middle {
+	vertical-align: middle;
+}
+
+/* header */
+#header{
+	background: #dfc48a;
+	height: 60px;
+	padding-left: 30px;
+	margin-bottom: 50px;
+}
+
+#headerText{
+	padding-top: 15px;
+}

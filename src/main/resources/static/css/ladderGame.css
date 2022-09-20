@@ -1,0 +1,15 @@
+#ladderGameForm{
+	background: #e0e0e0;
+}
+
+.ladderGameInput{
+	width: 100px;
+}
+
+#ladderCountNextBtn{
+	margin-left: 80px;
+}
+
+#ladderNamePrevBtn, #ladderResultPrevBtn, #ladderDrawingPrevBtn{
+	margin-left: 30px;
+}

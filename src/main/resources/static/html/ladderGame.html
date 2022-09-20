@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/ladderGame.css">
+<script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+<script src="https://kit.fontawesome.com/9e1a390ee4.js"
+	crossorigin="anonymous"></script>
+<script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
+<title>Useful Tools</title>
+</head>
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="h4 fw-bold" id="headerText">
+			<a href="/html/index.html">Useful Tools</a>
+		</div>
+	</div>
+	<!-- main -->
+	<div class="container-md p-5 my-5" id="ladderGameForm">
+		<div class="text-center h2">Ladder Game</div>
+		<div>
+			<div class="h6 fw-bold mt-5">1. 사다리 개수 ( 2~20 )</div>
+			<div>
+				<input class="my-3 mx-4 ladderGameInput" id="ladderCount"
+					type="number" name="ladderCount" min="2" max="20">
+			</div>
+			<button class="btn btn-sm btn-secondary" id="ladderCountNextBtn">next</button>
+		</div>
+		<div>
+			<div class="h6 fw-bold mt-5">2. 이름</div>
+			<div>
+				<input class="my-3 mx-4 ladderGameInput" type="number"
+					name="ladderName" min="2" max="20"><input
+					class="my-3 ladderGameInput" type="number" name="ladderName"
+					min="2" max="20">
+			</div>
+			<button class="btn btn-sm btn-outline-secondary" id="ladderNamePrevBtn">prev</button>
+			<button class="btn btn-sm btn-secondary" id="ladderNameNextBtn">next</button>
+		</div>
+		<div>
+			<div class="h6 fw-bold mt-5">3. 보상</div>
+			<div>
+				<input class="my-3 mx-4 ladderGameInput" type="number"
+					name="ladderResult" min="2" max="20"><input
+					class="my-3 ladderGameInput" type="number" name="ladderResult"
+					min="2" max="20">
+			</div>
+			<button class="btn btn-sm btn-outline-secondary" id="ladderResultPrevBtn">prev</button>
+			<button class="btn btn-sm btn-secondary" id="ladderResultNextBtn">next</button>
+		</div>
+		<div class="mt-5">
+			<!-- ladder drawing place -->
+			<div class="text-center">
+				<button class="btn btn-sm btn-primary"
+					id="ladderDrawingChangeBtn">change</button>
+				<button class="btn btn-sm btn-primary"
+					id="ladderDrawingViewAllBtn">view all</button>
+			</div>
+		</div>
+		<div class="mt-5">
+			<button class="btn btn-sm btn-outline-secondary" id="ladderDrawingPrevBtn">prev</button>
+			<button class="btn btn-sm btn-secondary" id="ladderDrawingResetBtn">reset</button>
+		</div>
+	</div>
+</body>
+</html>
