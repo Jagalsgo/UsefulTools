@@ -1,0 +1,12 @@
+#notesForm{
+	background: #e0e0e0;
+}
+
+.notesBox{
+	border-top: 2px ridge rgba(0, 0, 0, .2);
+	border-left: 5px ridge rgba(0, 0, 0, .2);
+}
+
+.fa-trash{
+	float: right;
+}

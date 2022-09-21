@@ -1,0 +1,12 @@
+#notesForm{
+	background: #e0e0e0;
+}
+
+#addNotesContent{
+	min-height: 400px;
+}
+
+#completeAddBtn{
+	float: right;
+	margin-right: 20px;
+}

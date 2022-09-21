@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="/css/common.css">
+<link rel="stylesheet" href="/css/notesDetail.css">
+<script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+<script src="https://kit.fontawesome.com/9e1a390ee4.js"
+	crossorigin="anonymous"></script>
+<script type="text/javascript" src="/bootstrap/js/bootstrap.js"></script>
+<title>Useful Tools</title>
+</head>
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="h4 fw-bold" id="headerText">
+			<a href="/html/index.html">Useful Tools</a>
+		</div>
+	</div>
+	<!-- main -->
+	<div class="container-md p-5 my-5" id="notesForm">
+		<div class="text-center h2">Notes Detail</div>
+		<div class="mt-5 mb-3">
+			<label for="notesDetailTitle" class="my-2 fw-bold" id="titleLabel">Title</label>
+			<input type="text" class="form-control" placeholder="title"
+				name="notesDetail" maxlength="50" id="notesDetailTitle">
+		</div>
+		<div class="form-group">
+			<label for="notesDetailContent" class="fw-bold" id="contentLabel">Content</label>
+			<textarea class="form-control my-3" placeholder="content"
+				name="notesDetailContent" maxlength="2048" id="notesDetailContent"></textarea>
+		</div>
+		<div class="my-5">
+			<div id="goToList">
+				<a href="/html/notes.html"><i class="fa fa-solid fa-list fa-2x"></i></a>
+				<i class="fa fa-solid fa-2x fa-trash text-right mx-4"></i>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
