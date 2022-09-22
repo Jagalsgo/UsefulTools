@@ -1,0 +1,62 @@
+#stopwatchForm {
+	background: #e0e0e0;
+}
+
+.btn-group {
+	text-align: center;
+	border: 1px solid green;
+	border-radius: 5px;
+}
+
+.choiceBtn {
+	font-weight: bold;
+}
+
+#stopwatchBtn {
+	background: green;
+	color: white;
+}
+
+#stopwatchTimeBox {
+	border: 1px solid black;
+	width: 500px;
+	margin: auto;
+}
+
+#timeHMS {
+	font-size: 100px;
+}
+
+#timeSS {
+	font-size: 50px;
+}
+
+.stopwatchTimeBtn {
+	width: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.timerTime {
+	font-size: 100px;
+	width: 150px;
+}
+
+@media screen and (max-width:700px) {
+	#stopwatchTimeBox {
+		width: 400px;
+	}
+	#timeHMS {
+		font-size: 70px;
+	}
+	#timeSS {
+		font-size: 35px;
+	}
+	.stopwatchTimeBtn {
+		width: 50px;
+	}
+	.timerTime {
+		font-size: 70px;
+		width: 100px;
+	}
+}

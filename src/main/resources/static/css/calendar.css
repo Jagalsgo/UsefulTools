@@ -1,0 +1,45 @@
+#calendarForm{
+	background: #e0e0e0;
+}
+
+#calendarBox{
+	width: 400px;
+	margin: auto;
+}
+
+#dateDisplay{
+	border: 1px solid black;
+	background: white;
+}
+
+#calendarLeft{
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#calendarRight{
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #444444;
+  border-collapse : collapse;
+  background: white;
+  table-layout: fixed;
+}
+th, td {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-collapse : collapse;
+  padding: 5px;
+  font-weight: bold;
+}
+th{
+	background: #bbbcb7;
+}
+td{
+	opacity: 0.7
+}

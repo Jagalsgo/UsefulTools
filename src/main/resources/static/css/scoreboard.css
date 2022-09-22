@@ -1,0 +1,59 @@
+#scoreboardForm {
+	background: #e0e0e0;
+}
+
+.scoreboardTime {
+	font-size: 40px;
+	padding: 10px;
+	width: 100px;
+}
+
+.scoreboardTimeLine {
+	font-size: 80px;
+}
+
+.scoreTeam {
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+	width: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.scoreCount {
+	font-size: 60px;
+	padding: 10px;
+	width: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.scoreChangeBtn {
+	font-size: 30px;
+	padding: 10px;
+	width: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#scoreResetBtn {
+	font-size: 30px;
+	padding: 10px;
+	width: 450px;
+}
+
+@media screen and (max-width:700px) {
+	.scoreTeam {
+		width: 150px;
+	}
+	.scoreCount {
+		width: 150px;		
+	}
+	.scoreChangeBtn{
+		width: 150px;
+	}
+	#scoreResetBtn{
+		width: 350px;
+	}
+}
