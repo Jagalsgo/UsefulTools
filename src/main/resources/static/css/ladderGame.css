@@ -13,3 +13,7 @@
 #ladderNamePrevBtn, #ladderResultPrevBtn, #ladderDrawingPrevBtn{
 	margin-left: 30px;
 }
+
+#ladderNameBox, #ladderResultBox, #ladderDrawingBox{
+	display: none;
+}
